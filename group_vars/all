@@ -1,0 +1,7 @@
+network: 
+  - interface: eth0
+    shorewall: net
+    ips: ['1.1.1.1', '2.2.2.2']
+  - interface: eth1
+    shorewall: net
+    ips: ['3.3.3.3', '4.5.5.5']
